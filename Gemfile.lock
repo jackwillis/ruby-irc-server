@@ -4,6 +4,9 @@ GEM
     concurrent-ruby (1.2.2)
     concurrent-ruby-ext (1.2.2)
       concurrent-ruby (= 1.2.2)
+    sorbet (0.5.11193)
+      sorbet-static (= 0.5.11193)
+    sorbet-static (0.5.11193-x86_64-linux)
 
 PLATFORMS
   x86_64-linux
@@ -11,6 +14,7 @@ PLATFORMS
 DEPENDENCIES
   concurrent-ruby (= 1.2.2)
   concurrent-ruby-ext (= 1.2.2)
+  sorbet (~> 0.5)
 
 BUNDLED WITH
    2.4.22
