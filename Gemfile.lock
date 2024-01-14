@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.2.2)
+    concurrent-ruby-ext (1.2.2)
+      concurrent-ruby (= 1.2.2)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  concurrent-ruby (= 1.2.2)
+  concurrent-ruby-ext (= 1.2.2)
+
+BUNDLED WITH
+   2.4.22
