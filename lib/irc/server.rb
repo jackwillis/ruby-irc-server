@@ -23,5 +23,4 @@ module IRC
       end
     end
   end
-
 end

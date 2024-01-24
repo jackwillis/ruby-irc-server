@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/irc/server'
 
 RSpec.describe IRC::Server do
@@ -27,7 +29,7 @@ RSpec.describe IRC::Server do
     end
 
     it 'echoes received messages' do
-      expect(mock_socket).to receive(:puts).with("Echo: Hello")
+      expect(mock_socket).to receive(:puts).with('Echo: Hello')
       server.handle_client(mock_socket)
     end
   end
